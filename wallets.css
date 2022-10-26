@@ -186,8 +186,7 @@ a>h1 {
         font-size: 2rem !important;  
     }
     .regtxt {
-        margin-top: 20px;
-
+        margin: 20px;
         box-sizing: border-box;
         display: flex;
         justify-content: center;
