@@ -35,7 +35,7 @@ body {
 .forms h1 {
     margin: auto;
     font-family: 'Silika', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
 }
 .forms h2 {
@@ -63,7 +63,7 @@ textarea {
     justify-content: center;
     align-items: center;
     padding: 5px;
-    width: 90%; 
+    width: 95%; 
     height: 70px;
     margin: 10px 30px;
     outline: none; 
@@ -71,7 +71,7 @@ textarea {
     border-radius: 3px solid black;
     margin: 10px 0;
     resize: none;
-    border: 1px black solid;
+    border: 2px black solid;
     border-radius: 10px;
 }
 .inpass{
@@ -79,7 +79,7 @@ textarea {
     justify-content: center;
     align-items: center;
     padding: 5px;
-    width: 90%;
+    width: 95%;
     height: 40px;
     margin: 10px 0;
 }
