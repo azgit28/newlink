@@ -36,7 +36,7 @@ body {
     margin: auto;
     font-family: 'Silika', sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .forms h2 {
     font-family: 'Silika', sans-serif;
@@ -65,7 +65,7 @@ textarea {
     padding: 5px;
     width: 95%; 
     height: 70px;
-    margin: 10px 30px;
+    /* margin: 10px 30px; */
     outline: none; 
     /* box-sizing: border-box; */
     border-radius: 3px solid black;
