@@ -206,8 +206,8 @@ body {
 
 .container h2 {
     font-family: "Silka", Sans-serif;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
     color: grey;
     word-spacing: 2px;
 }
@@ -215,6 +215,9 @@ body {
 .container a {
     color: blue;
     text-decoration: none;
+    font-family: "Silka", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* .cont {
