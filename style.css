@@ -158,6 +158,7 @@ body {
 }
 
 
+<<<<<<< HEAD
 .container {
     display: grid;
     place-items: center;
@@ -176,27 +177,78 @@ body {
     font-family: "Silka", Sans-serif;
     font-size: 18px;
     font-weight: 600;
+=======
+.cards {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+>>>>>>> e9c920fe6b265761238df32637e4fc575d2ea1c7
     color: white;
-    word-spacing: 2px;
-    padding: 10px 0;
+    text-align: center;
+    gap: 50px;
+    
+    /* height: 50%; */
+    /* border: 1px solid white; */
 }
+.cards1 {
+    background-color: rgb(16, 16, 46);
+    border: 1px solid white;
+    padding: 20px 0;
+    height:100% ;
+    
+    /* max-height: 550px; */
+    /* border-radius: 10px; */
 
-.container h2 {
-    font-family: "Silka", Sans-serif;
-    font-size: 16px;
+}
+.cards1 .fa {
+    font-size: 5rem;
+}
+#arr {
+    font-size: 1rem !important;
+
+}
+.cards1 h1 {
+    font-family:'Silika', sans-serif ;
+        font-size:24px ;
+        font-weight: 600;
+        margin: 10px 0;
+        color: grey;
+
+}
+.cards1 h2{
+    font-family:'Silika', sans-serif ;
+        font-size:16px ;
+        font-weight: 400;
+        margin-top: 10px 0;
+
+}
+.cards a {
+    font-family:'Silika', sans-serif ;
+    font-size:16px ;
     font-weight: 400;
+<<<<<<< HEAD
     color: grey;
     word-spacing: 2px;
 }
 
 .container a {
     color: tomato;
+=======
+    background-color: white;
+>>>>>>> e9c920fe6b265761238df32637e4fc575d2ea1c7
     text-decoration: none;
-    font-family: "Silka", Sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-}
+    border: 1px solid blue;
+    border-radius: 10px 0;
+    /* position: relative; */
+   
+    color: black;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 10px 0;
+    margin: 10px 0;
 
+<<<<<<< HEAD
 /* .cont {
     display: grid;
     grid-template-columns: 1fr;
@@ -214,6 +266,8 @@ body {
     /* border-radius: 20px; */
     box-shadow: 5px  rgba(79, 120, 58, 0.676);
     
+=======
+>>>>>>> e9c920fe6b265761238df32637e4fc575d2ea1c7
 }
 
 .five {
@@ -264,12 +318,40 @@ body {
     max-width: 100%;
 
 }
+@media(max-width:425px){
+    /* .hero {
+        height: 60vh;
+    } */
+    .hero h1 {
+        font-family:'Silika', sans-serif ;
+        font-size:14px ;
+        font-weight: 600;
+        /* margin: 10px 0; */
+        color: white;
+    }
+    .hero h2 {
+        display: none;
+    }
+    .cards {
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr;
+        color: white;
+        text-align: center;
+        gap: 50px;
+        
+        /* height: 50%; */
+        /* border: 1px solid white; */
+    }  
+    
+}
+
 @media (max-width:700px) {
     /* .container {
         display: grid;
         grid-template-columns: 1fr;
     } */
-    .cont11 {
+    .cards1 {
         width: 100%;
         height: 100%;
     }
@@ -279,7 +361,7 @@ body {
 
 }
 
-@media (min-width:701px) {
+@media (min-width:768px) {
     .hero {
         display: grid;
         place-items: center;
@@ -309,21 +391,11 @@ body {
         text-align: center;
       
     }
-    /* .hero2>a {
-        display: grid;
-        place-items: center;
-        align-items: center;
-        color: white;
-        text-decoration: none;
-        background-color: blue;
-        width: 50%;
-        margin: 20px 0px 20px 500px;
-        border: 1px black solid;
-        border-radius: 50px;
-    } */
+
     .second img {
         height: 600px;
     }
+<<<<<<< HEAD
     .container {
         display: grid;
         place-items: center;
@@ -338,60 +410,102 @@ body {
         height: 100%;
         
         
+=======
+    .cards {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    gap: 50px;
+>>>>>>> e9c920fe6b265761238df32637e4fc575d2ea1c7
     
-    }
-    .third {
-        margin: 20px;
-        font-family: "Silka", Sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-        color: white;
-        text-align: center;
-    }
+    /* height: 50%; */
+    /* border: 1px solid white; */
+}
+.cards1 {
+    background-color: rgb(16, 16, 46);
+    border: 1px solid white;
+    padding: 20px 0;
+    height:100% ;
     
-    .third h2 {
-        padding: 20px 0;
-        font-family: "Silka", Sans-serif;
-        font-size: 18px;
+    /* max-height: 550px; */
+    /* border-radius: 10px; */
+
+}
+.cards1 .fa {
+    font-size: 5rem;
+}
+#arr {
+    font-size: 1rem !important;
+
+}
+.cards1 h1 {
+    font-family:'Silika', sans-serif ;
+        font-size:24px ;
         font-weight: 600;
+        margin: 10px 0;
         color: grey;
-    }
-    .five>h2 {
-        font-size: 18px;
-        background-color: aquamarine;
-        border-radius: 10px;
-        padding: 10px;
-    
-    }
-    .five h1 {
-        font-size: 24px;
-        font-weight: 600;
-    }
-    
-    .five a {
-        text-decoration: inherit;
-        color: white;
-    }
-    
-    .footer {
-        display: flex;
-        justify-content: space-between;
-        margin: 50px 20px;
-        color: white;
-        font-family: "Silka", Sans-serif;
-        font-size: 14px;
+
+}
+.cards1 h2{
+    font-family:'Silika', sans-serif ;
+        font-size:16px ;
         font-weight: 400;
-        /* background-color: gray; */
-        padding: 10px;
-        border-radius: 20px;
-        max-width: 100%;
-    
-    }
+        margin-top: 10px 0;
 
+}
+.cards a {
+    font-family:'Silika', sans-serif ;
+    font-size:16px ;
+    font-weight: 400;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid blue;
+    border-radius: 10px 0;
+    /* position: relative; */
+   
+    color: black;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 10px 0;
+    margin: 10px 0;
 
+}
+.sicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px;
+    color: rgba(0, 0, 7, 0.9);
+    font-family: "Silka", Sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    /* background-color: gray; */
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 100%;
 
 }
 
+/* @media(min-width:426px) {
+    .cards {
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        color: white;
+        text-align: center;
+        gap: 50px;
+    }
+
+} */
 
 
 
