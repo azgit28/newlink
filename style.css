@@ -20,7 +20,7 @@ body {
     background-color: white;
     color: white;
     font-family: "Silka", Sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     padding: 20px;
     width: 100%;
@@ -48,9 +48,12 @@ body {
     width: 100%;
     display: grid;
     place-items: center;
-    /* padding: 20px;
-    gap: 20px;
-    flex-wrap: wrap; */
+    background: linear-gradient(to top, rgba(16, 16, 64, 0.95)50%, rgba(16, 16, 64, 0.95)50%), url(images/wallet-fold-phone.png);
+    height: 50vh;
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+   
 }
 
 .hero1 {
@@ -60,17 +63,19 @@ body {
     text-align: center;
     padding: 0 20px;
    
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .hero h1 {
     display: flex;
     justify-content: center;
-    margin: 50px 0 20px 0;
+    margin: 30px 0 20px 0;
     font-family: "Silka", Sans-serif;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 600;
     color: white;
+   
+    
 }
 
 .hero2 {
@@ -85,7 +90,7 @@ body {
     place-items: center;
     font-family: "Silka", Sans-serif;
     font-size: 12px;
-    font-weight: 800;
+    font-weight: 600;
     color: grey;
     gap: 10px;
     text-align: center;
@@ -93,47 +98,18 @@ body {
 }
 
 
-/* .hero2>a {
-    display: grid;
-    place-items: center;
-    color: white;
-    text-decoration: none;
-    background-color: blue;
-    width: 80%;
-    margin: 20px;
-    border: 1px black solid;
-    border-radius: 50px;
-} */
 
-
-
- /* a .sw {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: blue;
-    padding: 20px;
-    width: 250px;
-    border-radius: 20px;
-    margin: 50px 0;
-    font-family: "Silka", Sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-
-} */
 .sw {
     display: grid;
     place-items: center;
     align-items: center;
     margin: auto;
     font-family: "Silka", Sans-serif;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
     color: white;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 10px 0;
     background-color: blue;
     border: 1px solid black;
     border-radius: 30px;
@@ -142,23 +118,24 @@ body {
     
 }
 
-.second img {
-    height: 400px;
-}
+/* .second img {
+    height: 300px;
+    
+} */
 
 .third {
-    margin: 20px;
+    margin: 10px;
     font-family: "Silka", Sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 600;
     color: white;
     text-align: center;
 }
 
 .third h2 {
-    padding: 20px 0;
+    padding: 10px 0;
     font-family: "Silka", Sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     color: grey;
 }
@@ -172,6 +149,7 @@ body {
 .second {
     display: grid;
     place-items: center;
+    
 }
 
 .third {
@@ -181,16 +159,15 @@ body {
 
 
 .container {
-
     display: grid;
     place-items: center;
     align-items: center;
-    margin: 10px;
+    padding:0 10px;
     gap: 20px;
 }
 
 .container .fa {
-    color: grey;
+    color:white;
     font-size: 4rem;
     padding: 10px 0;
 }
@@ -213,7 +190,7 @@ body {
 }
 
 .container a {
-    color: blue;
+    color: tomato;
     text-decoration: none;
     font-family: "Silka", Sans-serif;
     font-size: 16px;
@@ -231,9 +208,12 @@ body {
     place-items: left;
     align-items: center;
     grid-template-columns: 1fr;
-    padding: 50px 10px;
-    border: 1px black solid;
-    border-radius: 20px;
+    padding: 20px 10px;
+    border: 3px gray solid;
+    background-color: black;
+    /* border-radius: 20px; */
+    box-shadow: 5px  rgba(79, 120, 58, 0.676);
+    
 }
 
 .five {
@@ -293,6 +273,9 @@ body {
         width: 100%;
         height: 100%;
     }
+    .hero2>h2 {
+        display: none;
+    }
 
 }
 
@@ -346,13 +329,14 @@ body {
         place-items: center;
         align-items: center;
         grid-template-columns: 1fr 1fr;
-        margin: 0 50px;
+        padding: 0 50px;
     }
     .cont11 {
         /* padding: 50px 10px; */
         /* text-align: center; */
         width: 100%;
         height: 100%;
+        
         
     
     }
